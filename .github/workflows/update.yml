@@ -1,0 +1,14 @@
+name: Run Pre-Merge Script
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - run: ./update.sh
