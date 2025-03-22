@@ -1,1 +1,1 @@
-deb https://train360-corp.github.io/ppa/packages ./
+deb [signed-by=/etc/apt/trusted.gpg.d/train360-corp-ppa-key.gpg] https://train360-corp.github.io/ppa/packages ./
