@@ -14,7 +14,7 @@ fi
 # Import the key
 echo "$KEY" | gpg --batch --yes --import
 
-export KEYNAME=2708FE95C2F86BA66026C853E47562C3606A0EF4
+export KEYNAME="050DDE1853D8E33695C8943CF293341B61731B22"
 
 (
     set -e
