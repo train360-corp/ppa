@@ -1,33 +1,52 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 set -v
 
 cd "$(dirname "$0")"
 HERE="$(pwd)"
 
-if [ -z "$KEY" ]; then
-  echo "KEY is not set"
+# Key must be passed via environment variable, e.g., from GitHub Secrets
+if [ -z "${KEY:-}" ]; then
+  echo "❌ KEY is not set"
   exit 1
 fi
 
-# Import the key
+# Force usage of this specific key ID
+KEY_ID="050DDE1853D8E33695C8943CF293341B61731B22"
+
+# Import the private key (with public portion)
 echo "$KEY" | gpg --batch --yes --import
 
-export KEYNAME="050DDE1853D8E33695C8943CF293341B61731B22"
 
-(
-    set -e
-    set -v
+# Trust the key explicitly (level 5 = ultimate)
+echo -e "5\ny\n" | gpg --batch --command-fd 0 --edit-key "$KEY_ID" trust
 
-    cd "$HERE/packages"
+# Confirm key is available
+echo "✅ Confirming GPG key is loaded:"
+gpg --list-secret-keys --keyid-format LONG "$KEY_ID"
 
-    dpkg-scanpackages --multiversion . > Packages
-    gzip -k -f Packages
+# Go into packages directory
+cd "$HERE/packages"
 
-    apt-ftparchive release . > Release
+# Generate package index
+dpkg-scanpackages --multiversion . > Packages
+gzip -k -f Packages
 
-    # Sign with extracted KEYNAME
-    gpg --default-key "${KEYNAME}" -abs -o - Release > Release.gpg
-    gpg --default-key "${KEYNAME}" --clearsign -o - Release > InRelease
-)
+# Generate Release file
+apt-ftparchive release . > Release
+
+# Sign the Release file (detached and inline)
+gpg --batch --yes -u "$KEY_ID" -abs -o Release.gpg Release
+gpg --batch --yes -u "$KEY_ID" --clearsign -o InRelease Release
+
+# Export the public key for APT clients
+gpg --export "$KEY_ID" | gpg --dearmor > KEY.gpg
+
+echo "✅ APT repo signed. Verifying signatures..."
+
+# Signature verification
+gpg --verify InRelease
+gpg --verify Release.gpg Release
+
+echo "✅ Signature verification succeeded for both InRelease and Release.gpg"
