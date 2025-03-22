@@ -13,10 +13,11 @@ if [ -z "${KEY:-}" ]; then
 fi
 
 # Force usage of this specific key ID
-KEY_ID="2708FE95C2F86BA66026C853E47562C3606A0EF4"
+KEY_ID="050DDE1853D8E33695C8943CF293341B61731B22"
 
 # Import the private key (with public portion)
 echo "$KEY" | gpg --batch --yes --import
+
 
 # Trust the key explicitly (level 5 = ultimate)
 echo -e "5\ny\n" | gpg --batch --command-fd 0 --edit-key "$KEY_ID" trust
