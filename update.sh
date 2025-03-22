@@ -36,8 +36,8 @@ gzip -k -f Packages
 apt-ftparchive release . > Release
 
 # Sign the Release file (detached and inline)
-gpg -u "$KEY_ID" -abs -o Release.gpg Release
-gpg -u "$KEY_ID" --clearsign -o InRelease Release
+gpg --batch --yes -u "$KEY_ID" -abs -o Release.gpg Release
+gpg --batch --yes -u "$KEY_ID" --clearsign -o InRelease Release
 
 # Export the public key for APT clients
 gpg --export "$KEY_ID" | gpg --dearmor > KEY.gpg
