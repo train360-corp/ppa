@@ -14,14 +14,7 @@ fi
 # Import the key
 echo "$KEY" | gpg --batch --yes --import
 
-# Extract the key ID or UID (use the first one found)
-export KEYNAME=$(gpg --list-secret-keys --with-colons | awk -F: '$1 == "uid" { print $10; exit }')
-
-# Fallback check
-if [ -z "$KEYNAME" ]; then
-  echo "Failed to determine KEYNAME from imported key"
-  exit 1
-fi
+export KEYNAME=2708FE95C2F86BA66026C853E47562C3606A0EF4
 
 (
     set -e
