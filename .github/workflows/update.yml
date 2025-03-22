@@ -13,4 +13,4 @@ jobs:
 
       - run: ./update.sh
         env:
-            KEY: ${{ secrets.key }}
+            KEY: ${{ secrets.KEY }}
