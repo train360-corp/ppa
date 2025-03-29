@@ -1,4 +1,4 @@
-name: Run Pre-Merge Script
+name: Generate Releases
 
 on:
   pull_request:
@@ -9,6 +9,7 @@ permissions:
 
 jobs:
   update:
+    name: Generate Releases
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
