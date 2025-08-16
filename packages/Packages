@@ -1,3 +1,66 @@
+Package: projconf
+Version: 0.1.1
+Architecture: amd64
+Maintainer: Train360, Corp.
+Installed-Size: 23240
+Depends: openssl, postgresql-client
+Filename: ./projconf_0.1.1_amd64.deb
+Size: 8333934
+MD5sum: 4bea073ed59dfbb137321eff0527037d
+SHA1: b58e182f4f8bdf291577f1ff1c641c14befeaace
+SHA256: b0d4b61dd865e728653c127c5d0f491c2dc845e5c2b0f6d5e2fd8b45c1ba73a9
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 0.1.1
+License: MIT
+
+Package: projconf
+Version: 0.1.1
+Architecture: arm64
+Maintainer: Train360, Corp.
+Installed-Size: 22336
+Depends: openssl, postgresql-client
+Filename: ./projconf_0.1.1_arm64.deb
+Size: 7635874
+MD5sum: 5d409845c3cadb7a3123765728ee1f41
+SHA1: 30537ec31143897b9e0bbaae5dac02a77ce1b3a6
+SHA256: 16bdde9b6d3e0db5b14f63a8b68a236bb3fda192bc42c58630c8d39afdb6fae1
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 0.1.1
+License: MIT
+
+Package: projconf
+Version: 0.1.1
+Architecture: i386
+Maintainer: Train360, Corp.
+Installed-Size: 21636
+Depends: openssl, postgresql-client
+Filename: ./projconf_0.1.1_i386.deb
+Size: 7746170
+MD5sum: ee1bc3325de53da09a728d864f5ef5cc
+SHA1: c4921dfa5d6f511b6cebfc05e60cd745a320cb9f
+SHA256: 3b9e6ce32c3a6e988e270b8c35f152e2c68eab492039d946a97c4cffbdefcccf
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 0.1.1
+License: MIT
+
+Package: supasecure
+Version: 1.15.13
+Architecture: amd64
+Maintainer: Train360, Corp.
+Installed-Size: 12280
+Filename: ./supasecure_1.15.13_amd64.deb
+Size: 4653048
+MD5sum: fd68980ae39472b53e28cd183363f716
+SHA1: fd6e6fef4b18e7d46d8989adf3d9b7af359cfd12
+SHA256: 1af7567d8e043905620b5a91d2cf6d02620594b3eec857000c30c9434ba9e861
+Priority: optional
+Homepage: https://github.com/train360-corp/supasecure
+Description: Supasecure CLI 1.15.13
+License: MIT
+
 Package: supasecure
 Version: 1.15.13
 Architecture: arm64
@@ -29,18 +92,18 @@ Description: Supasecure CLI 1.15.13
 License: MIT
 
 Package: supasecure
-Version: 1.15.13
+Version: 1.15.14
 Architecture: amd64
 Maintainer: Train360, Corp.
 Installed-Size: 12280
-Filename: ./supasecure_1.15.13_amd64.deb
+Filename: ./supasecure_1.15.14_amd64.deb
 Size: 4653048
-MD5sum: fd68980ae39472b53e28cd183363f716
-SHA1: fd6e6fef4b18e7d46d8989adf3d9b7af359cfd12
-SHA256: 1af7567d8e043905620b5a91d2cf6d02620594b3eec857000c30c9434ba9e861
+MD5sum: eae201f03ef6da497f6a31ace6de1cbb
+SHA1: 038ce8d28bfb179856a1435829c790918a20270b
+SHA256: 53d1e1b761941b200926583add48266d4abbefe4dec1e9c7dfbb458947c3bed6
 Priority: optional
 Homepage: https://github.com/train360-corp/supasecure
-Description: Supasecure CLI 1.15.13
+Description: Supasecure CLI 1.15.14
 License: MIT
 
 Package: supasecure
@@ -74,18 +137,18 @@ Description: Supasecure CLI 1.15.14
 License: MIT
 
 Package: supasecure
-Version: 1.15.14
+Version: 1.15.15
 Architecture: amd64
 Maintainer: Train360, Corp.
 Installed-Size: 12280
-Filename: ./supasecure_1.15.14_amd64.deb
-Size: 4653048
-MD5sum: eae201f03ef6da497f6a31ace6de1cbb
-SHA1: 038ce8d28bfb179856a1435829c790918a20270b
-SHA256: 53d1e1b761941b200926583add48266d4abbefe4dec1e9c7dfbb458947c3bed6
+Filename: ./supasecure_1.15.15_amd64.deb
+Size: 4653038
+MD5sum: 24e97ae87cfa8cf94c2ecaeae43d54f4
+SHA1: 7cc4a1249bf826fbe7f42afac48a89338bdbff4f
+SHA256: 49533febb8170a71c6201fa00a400670963a19affd7be5e723f4ef81dcd7a897
 Priority: optional
 Homepage: https://github.com/train360-corp/supasecure
-Description: Supasecure CLI 1.15.14
+Description: Supasecure CLI 1.15.15
 License: MIT
 
 Package: supasecure
@@ -98,21 +161,6 @@ Size: 4419498
 MD5sum: b159cd076952d16f95008e5308233a7a
 SHA1: cd6dac8fdf24c330303cd1a854ab3906b3a8f761
 SHA256: 8b706f9c06f8fd60fa1fb119a76e605d34db5f3267e3b53525818b799e95e68a
-Priority: optional
-Homepage: https://github.com/train360-corp/supasecure
-Description: Supasecure CLI 1.15.15
-License: MIT
-
-Package: supasecure
-Version: 1.15.15
-Architecture: amd64
-Maintainer: Train360, Corp.
-Installed-Size: 12280
-Filename: ./supasecure_1.15.15_amd64.deb
-Size: 4653038
-MD5sum: 24e97ae87cfa8cf94c2ecaeae43d54f4
-SHA1: 7cc4a1249bf826fbe7f42afac48a89338bdbff4f
-SHA256: 49533febb8170a71c6201fa00a400670963a19affd7be5e723f4ef81dcd7a897
 Priority: optional
 Homepage: https://github.com/train360-corp/supasecure
 Description: Supasecure CLI 1.15.15
@@ -150,21 +198,6 @@ License: MIT
 
 Package: supasecure
 Version: 1.15.16
-Architecture: arm64
-Maintainer: Train360, Corp.
-Installed-Size: 11968
-Filename: ./supasecure_1.15.16_arm64.deb
-Size: 4381468
-MD5sum: f6f8edd2fc33ae2c766a1cd4684d2603
-SHA1: fa5fc7744b905ed35c91826bbb3cc9735c130f22
-SHA256: 34e8b1801241172baf48b90e095bb379da5e8bf7b7757fa200f23bb4c998011f
-Priority: optional
-Homepage: https://github.com/train360-corp/supasecure
-Description: Supasecure CLI 1.15.16
-License: MIT
-
-Package: supasecure
-Version: 1.15.16
 Architecture: amd64
 Maintainer: Train360, Corp.
 Installed-Size: 12280
@@ -179,18 +212,18 @@ Description: Supasecure CLI 1.15.16
 License: MIT
 
 Package: supasecure
-Version: 1.15.9
+Version: 1.15.16
 Architecture: arm64
 Maintainer: Train360, Corp.
 Installed-Size: 11968
-Filename: ./supasecure_1.15.9_arm64.deb
-Size: 4381476
-MD5sum: 0bb1ae95c5fdfd825b95001588817177
-SHA1: e8599fbf8935cda8d61bada3099e2ba8ce5e76a1
-SHA256: 7d31a5c5e3ea32c14b8b71fdaf6b793b011dbcb0665be4d07bc9896b85bfe873
+Filename: ./supasecure_1.15.16_arm64.deb
+Size: 4381468
+MD5sum: f6f8edd2fc33ae2c766a1cd4684d2603
+SHA1: fa5fc7744b905ed35c91826bbb3cc9735c130f22
+SHA256: 34e8b1801241172baf48b90e095bb379da5e8bf7b7757fa200f23bb4c998011f
 Priority: optional
 Homepage: https://github.com/train360-corp/supasecure
-Description: Supasecure CLI 1.15.9
+Description: Supasecure CLI 1.15.16
 License: MIT
 
 Package: supasecure
@@ -218,6 +251,21 @@ Size: 4653052
 MD5sum: 0c7965d5b6bd0853e0395ff2d8f45090
 SHA1: 1eabb49ee9e3a91c9945f72aaa0e607a5e90a1d0
 SHA256: 3cb1902f21bbfde00505f72d88b0c25abf57ee62f9968c680a52ce544f9534ea
+Priority: optional
+Homepage: https://github.com/train360-corp/supasecure
+Description: Supasecure CLI 1.15.9
+License: MIT
+
+Package: supasecure
+Version: 1.15.9
+Architecture: arm64
+Maintainer: Train360, Corp.
+Installed-Size: 11968
+Filename: ./supasecure_1.15.9_arm64.deb
+Size: 4381476
+MD5sum: 0bb1ae95c5fdfd825b95001588817177
+SHA1: e8599fbf8935cda8d61bada3099e2ba8ce5e76a1
+SHA256: 7d31a5c5e3ea32c14b8b71fdaf6b793b011dbcb0665be4d07bc9896b85bfe873
 Priority: optional
 Homepage: https://github.com/train360-corp/supasecure
 Description: Supasecure CLI 1.15.9
@@ -270,6 +318,21 @@ License: MIT
 
 Package: supasecure
 Version: 1.16.4
+Architecture: arm64
+Maintainer: Train360, Corp.
+Installed-Size: 11968
+Filename: ./supasecure_1.16.4_arm64.deb
+Size: 4381900
+MD5sum: f6136771a536cf50162429406ab61b25
+SHA1: 5495142990efa2e18d7ddb17f8e64385a9d69683
+SHA256: 18acf3a2d36445746f9f0a1a42a9485e97889b2968643a8e66d8d2499574f9e3
+Priority: optional
+Homepage: https://github.com/train360-corp/supasecure
+Description: Supasecure CLI 1.16.4
+License: MIT
+
+Package: supasecure
+Version: 1.16.4
 Architecture: amd64
 Maintainer: Train360, Corp.
 Installed-Size: 12280
@@ -293,21 +356,6 @@ Size: 4419548
 MD5sum: 7a96c93093c62675cc90464af4bfe72f
 SHA1: 1dd6700981c5cbe81cdef6cd62bacc4fcb9cd374
 SHA256: 5848510463a8570a58ee8eab002ab4555857aac772ecd4efd84150c11bb79f63
-Priority: optional
-Homepage: https://github.com/train360-corp/supasecure
-Description: Supasecure CLI 1.16.4
-License: MIT
-
-Package: supasecure
-Version: 1.16.4
-Architecture: arm64
-Maintainer: Train360, Corp.
-Installed-Size: 11968
-Filename: ./supasecure_1.16.4_arm64.deb
-Size: 4381900
-MD5sum: f6136771a536cf50162429406ab61b25
-SHA1: 5495142990efa2e18d7ddb17f8e64385a9d69683
-SHA256: 18acf3a2d36445746f9f0a1a42a9485e97889b2968643a8e66d8d2499574f9e3
 Priority: optional
 Homepage: https://github.com/train360-corp/supasecure
 Description: Supasecure CLI 1.16.4
@@ -360,22 +408,6 @@ License: MIT
 
 Package: supasecure
 Version: 1.18.0
-Architecture: i386
-Maintainer: Train360, Corp.
-Installed-Size: 10856
-Depends: openssl
-Filename: ./supasecure_1.18.0_i386.deb
-Size: 4423308
-MD5sum: 40d52a6dae0c7eda3e562de9fc3671be
-SHA1: ca33fb605b8d271fe73f8e08e571ac48ac948219
-SHA256: f94beeef44cab5f80affa8c0bf8f53ee8a8a0a2429f3f31bf74653518835a14b
-Priority: optional
-Homepage: https://github.com/train360-corp/supasecure
-Description: Supasecure CLI 1.18.0
-License: MIT
-
-Package: supasecure
-Version: 1.18.0
 Architecture: amd64
 Maintainer: Train360, Corp.
 Installed-Size: 12292
@@ -407,6 +439,22 @@ Description: Supasecure CLI 1.18.0
 License: MIT
 
 Package: supasecure
+Version: 1.18.0
+Architecture: i386
+Maintainer: Train360, Corp.
+Installed-Size: 10856
+Depends: openssl
+Filename: ./supasecure_1.18.0_i386.deb
+Size: 4423308
+MD5sum: 40d52a6dae0c7eda3e562de9fc3671be
+SHA1: ca33fb605b8d271fe73f8e08e571ac48ac948219
+SHA256: f94beeef44cab5f80affa8c0bf8f53ee8a8a0a2429f3f31bf74653518835a14b
+Priority: optional
+Homepage: https://github.com/train360-corp/supasecure
+Description: Supasecure CLI 1.18.0
+License: MIT
+
+Package: supasecure
 Version: 1.18.1
 Architecture: i386
 Maintainer: Train360, Corp.
@@ -424,22 +472,6 @@ License: MIT
 
 Package: supasecure
 Version: 1.18.1
-Architecture: arm64
-Maintainer: Train360, Corp.
-Installed-Size: 11968
-Depends: openssl
-Filename: ./supasecure_1.18.1_arm64.deb
-Size: 4383858
-MD5sum: 4841edc7e910ed1b1302efb36d62e751
-SHA1: ddf8370441bb8a2a5fa647130c37e50801f72491
-SHA256: bc80f1ff03d31d76363c48bf6b275e3abca63d2996c2351f5683b23f1c268ce4
-Priority: optional
-Homepage: https://github.com/train360-corp/supasecure
-Description: Supasecure CLI 1.18.1
-License: MIT
-
-Package: supasecure
-Version: 1.18.1
 Architecture: amd64
 Maintainer: Train360, Corp.
 Installed-Size: 12292
@@ -449,6 +481,22 @@ Size: 4658224
 MD5sum: bf0249db056192dc59556bce5d8ce7e0
 SHA1: 3073ae5c592ba6404225b6197fa5e80224cc75e3
 SHA256: 16724b5f653e230360948ad44208f0ea7d7294c7c3979dd910ce3e01e5aedbe5
+Priority: optional
+Homepage: https://github.com/train360-corp/supasecure
+Description: Supasecure CLI 1.18.1
+License: MIT
+
+Package: supasecure
+Version: 1.18.1
+Architecture: arm64
+Maintainer: Train360, Corp.
+Installed-Size: 11968
+Depends: openssl
+Filename: ./supasecure_1.18.1_arm64.deb
+Size: 4383858
+MD5sum: 4841edc7e910ed1b1302efb36d62e751
+SHA1: ddf8370441bb8a2a5fa647130c37e50801f72491
+SHA256: bc80f1ff03d31d76363c48bf6b275e3abca63d2996c2351f5683b23f1c268ce4
 Priority: optional
 Homepage: https://github.com/train360-corp/supasecure
 Description: Supasecure CLI 1.18.1
@@ -552,6 +600,22 @@ License: MIT
 
 Package: supasecure
 Version: 2.1.3
+Architecture: i386
+Maintainer: Train360, Corp.
+Installed-Size: 10864
+Depends: openssl
+Filename: ./supasecure_2.1.3_i386.deb
+Size: 4425516
+MD5sum: fc9f803f972f8295305802f0bbb61ce1
+SHA1: a0c17543b114e12e08a86adae28744537aab71cf
+SHA256: d46b402ffd47ec768b15c33a7122666f0c62438fcc740b807f7d347f1d491ce4
+Priority: optional
+Homepage: https://github.com/train360-corp/supasecure
+Description: Supasecure CLI 2.1.3
+License: MIT
+
+Package: supasecure
+Version: 2.1.3
 Architecture: arm64
 Maintainer: Train360, Corp.
 Installed-Size: 12032
@@ -583,19 +647,19 @@ Description: Supasecure CLI 2.1.3
 License: MIT
 
 Package: supasecure
-Version: 2.1.3
-Architecture: i386
+Version: 2.1.4
+Architecture: amd64
 Maintainer: Train360, Corp.
-Installed-Size: 10864
+Installed-Size: 12932
 Depends: openssl
-Filename: ./supasecure_2.1.3_i386.deb
-Size: 4425516
-MD5sum: fc9f803f972f8295305802f0bbb61ce1
-SHA1: a0c17543b114e12e08a86adae28744537aab71cf
-SHA256: d46b402ffd47ec768b15c33a7122666f0c62438fcc740b807f7d347f1d491ce4
+Filename: ./supasecure_2.1.4_amd64.deb
+Size: 4850146
+MD5sum: 533ddae3262f6cdc98a73c8b9f73b481
+SHA1: 23354160c448d71ef26986579b5b89f3e8b48df3
+SHA256: c391f2cca5ccd9ac903e5132585bfdec1fa4eb0012fb5e6bb18557bf2dfb7ef9
 Priority: optional
 Homepage: https://github.com/train360-corp/supasecure
-Description: Supasecure CLI 2.1.3
+Description: Supasecure CLI 2.1.4
 License: MIT
 
 Package: supasecure
@@ -625,22 +689,6 @@ Size: 4682906
 MD5sum: 8b749678bb844450a2079a3a4ce0f402
 SHA1: 97f4002dfad075cc37160bc430f4ce5587287610
 SHA256: 4d2c4af99220c7c5bde246c603542d2e143269ba0847e6a1b2ab7c246f26fb23
-Priority: optional
-Homepage: https://github.com/train360-corp/supasecure
-Description: Supasecure CLI 2.1.4
-License: MIT
-
-Package: supasecure
-Version: 2.1.4
-Architecture: amd64
-Maintainer: Train360, Corp.
-Installed-Size: 12932
-Depends: openssl
-Filename: ./supasecure_2.1.4_amd64.deb
-Size: 4850146
-MD5sum: 533ddae3262f6cdc98a73c8b9f73b481
-SHA1: 23354160c448d71ef26986579b5b89f3e8b48df3
-SHA256: c391f2cca5ccd9ac903e5132585bfdec1fa4eb0012fb5e6bb18557bf2dfb7ef9
 Priority: optional
 Homepage: https://github.com/train360-corp/supasecure
 Description: Supasecure CLI 2.1.4
