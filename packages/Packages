@@ -94,6 +94,102 @@ Homepage: https://github.com/train360-corp/projconf
 Description: ProjConf CLI 1.0.0
 License: MIT
 
+Package: projconf
+Version: 1.1.1
+Architecture: amd64
+Maintainer: Train360, Corp.
+Installed-Size: 22700
+Depends: openssl, postgresql-client
+Filename: ./projconf_1.1.1_amd64.deb
+Size: 8446280
+MD5sum: 4df4db9b52ebbd9380afd439185ecdac
+SHA1: 79116627163d266f2ae74c4e48b5163f18d3454a
+SHA256: 2508bb43c72a17e6f7d3592f3bce082cda3f3569f49dc67cb926d9523aed0b78
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.1.1
+License: MIT
+
+Package: projconf
+Version: 1.1.1
+Architecture: arm64
+Maintainer: Train360, Corp.
+Installed-Size: 21696
+Depends: openssl, postgresql-client
+Filename: ./projconf_1.1.1_arm64.deb
+Size: 7743650
+MD5sum: 9d2095c2803386fe203cb4d1c3fba93c
+SHA1: e7cecfb3a2688af7f6a4076eeb5356790a39a021
+SHA256: eb68f2fce33473bc992adff3a39efc1d24e9f406ea05468f221bbb014f373aa6
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.1.1
+License: MIT
+
+Package: projconf
+Version: 1.1.1
+Architecture: i386
+Maintainer: Train360, Corp.
+Installed-Size: 21180
+Depends: openssl, postgresql-client
+Filename: ./projconf_1.1.1_i386.deb
+Size: 7848032
+MD5sum: 5b08626bca8d664d2fb69ceb8c2c81dc
+SHA1: bb33b97a0b1007764840b48f51bb15781c60af71
+SHA256: 1698be81f8bacedd6f8af5970d8fbbcd563a6bbb23eca86cb0257f0c1b806f4f
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.1.1
+License: MIT
+
+Package: projconf
+Version: 1.1.2
+Architecture: arm64
+Maintainer: Train360, Corp.
+Installed-Size: 21696
+Depends: openssl, postgresql-client
+Filename: ./projconf_1.1.2_arm64.deb
+Size: 7743648
+MD5sum: 38f1601082cfe900c77ef789c3aec58a
+SHA1: 57c9103625e42b2e49fe26cf262450932fb11889
+SHA256: 56639d11c630fa14e38dba17b80c3efac45eeb5d2ea9b4f3bee6fc614a66b06f
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.1.2
+License: MIT
+
+Package: projconf
+Version: 1.1.2
+Architecture: i386
+Maintainer: Train360, Corp.
+Installed-Size: 21180
+Depends: openssl, postgresql-client
+Filename: ./projconf_1.1.2_i386.deb
+Size: 7848010
+MD5sum: f248a6d3a8020c98b54d7d90416a6b2a
+SHA1: 4db2681276bc191f3a88131f82f1e126f22dc764
+SHA256: bcea5796aa6cabd0f28236d764755d63b9fd721a6889cc977e8d902cee54a7f0
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.1.2
+License: MIT
+
+Package: projconf
+Version: 1.1.2
+Architecture: amd64
+Maintainer: Train360, Corp.
+Installed-Size: 22700
+Depends: openssl, postgresql-client
+Filename: ./projconf_1.1.2_amd64.deb
+Size: 8446258
+MD5sum: d8a0bfafe8d7d36fdf10a71df2b31161
+SHA1: f3229ebb4721485624fa3ed95c1c7b6f7772e20a
+SHA256: 2ab31bc3025509d6c92a3b620b97066fe27ef5abb449f809389a54c296f3b995
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.1.2
+License: MIT
+
 Package: supasecure
 Version: 1.15.13
 Architecture: amd64
