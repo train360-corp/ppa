@@ -190,6 +190,102 @@ Homepage: https://github.com/train360-corp/projconf
 Description: ProjConf CLI 1.1.2
 License: MIT
 
+Package: projconf
+Version: 1.2.1
+Architecture: i386
+Maintainer: Train360, Corp.
+Installed-Size: 21192
+Depends: openssl
+Filename: ./projconf_1.2.1_i386.deb
+Size: 7851662
+MD5sum: 1dab2bca3744e6f5e9427e1cbd1bb21f
+SHA1: 02afba704267da8cc4c203c661af2364535a9f1e
+SHA256: 13f256beef3600655b88e186e42ed718abde9afff55da51a15c1e841cb354714
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.2.1
+License: MIT
+
+Package: projconf
+Version: 1.2.1
+Architecture: amd64
+Maintainer: Train360, Corp.
+Installed-Size: 22712
+Depends: openssl
+Filename: ./projconf_1.2.1_amd64.deb
+Size: 8452014
+MD5sum: 3a7171eea0413f7df21d071d5c64cef9
+SHA1: 7ddc9fc645f384e507d96470682df0f79c9d93a0
+SHA256: f6766ae89f96042da61c9eda5759508b1f129fbd7129a80fe730b8c9e4747df7
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.2.1
+License: MIT
+
+Package: projconf
+Version: 1.2.1
+Architecture: arm64
+Maintainer: Train360, Corp.
+Installed-Size: 21696
+Depends: openssl
+Filename: ./projconf_1.2.1_arm64.deb
+Size: 7748066
+MD5sum: 413d3f4d54076ac5b71f1fd4455d7079
+SHA1: 5a3071f34c7d2e67e8a57ba97f30cfba65fdb592
+SHA256: f6cfb89b876c1fce9b8f5759e131b9a0c2e3fd4be4e006e59575dfd12228d71a
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.2.1
+License: MIT
+
+Package: projconf
+Version: 1.2.2
+Architecture: amd64
+Maintainer: Train360, Corp.
+Installed-Size: 22712
+Depends: openssl
+Filename: ./projconf_1.2.2_amd64.deb
+Size: 8452010
+MD5sum: a7410f1dd693d9bd07234c2bc46c43cf
+SHA1: 0467415acb732ee336a65346a9b404e91b10a1b7
+SHA256: 680c25d3e038c750a03336f0a141b4fb5ac8b9ae677610fcff7a8ecf9bf73077
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.2.2
+License: MIT
+
+Package: projconf
+Version: 1.2.2
+Architecture: arm64
+Maintainer: Train360, Corp.
+Installed-Size: 21696
+Depends: openssl
+Filename: ./projconf_1.2.2_arm64.deb
+Size: 7748080
+MD5sum: dc1e3ec100e1cd50db534c4135e83b3d
+SHA1: c404b0c0b00c41139e6ed01e78300d1ae6aab0b9
+SHA256: 3170b12da5773e63ad48b0fdb31bbc7348dcb4988bca6c2507862ede5274f6b9
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.2.2
+License: MIT
+
+Package: projconf
+Version: 1.2.2
+Architecture: i386
+Maintainer: Train360, Corp.
+Installed-Size: 21192
+Depends: openssl
+Filename: ./projconf_1.2.2_i386.deb
+Size: 7851650
+MD5sum: bbeaf78d5d0aff2e3bb09c9dcf950938
+SHA1: 5de70ecd3fbc10ce3f563bd3d9e0ee6aa9a448a5
+SHA256: b9a241b0bc268c81e8f15b33a18352415827bf5e56e1d7f5d303430002cadc8a
+Priority: optional
+Homepage: https://github.com/train360-corp/projconf
+Description: ProjConf CLI 1.2.2
+License: MIT
+
 Package: supasecure
 Version: 1.15.13
 Architecture: amd64
