@@ -1,29 +1,29 @@
-name: Generate Releases
+name: Pre-Pull Checks
 
 on:
   pull_request:
-    types: [opened]
+    types: [opened, synchronize]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   update:
-    name: Generate Releases
+    name: Check Release
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - run: ./update.sh
+      - name: Run update script
+        run: ./update.sh
         env:
-            KEY: ${{ secrets.KEY }}
-      - name: Commit and push changes back to PR
-        run: |
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          KEY: ${{ secrets.KEY }}
 
-            git add .
-            git commit -m "chore: auto-fix from pre-merge script" || echo "No changes to commit"
-            git pull --rebase origin ${{ github.head_ref }}
-            git push origin HEAD:${{ github.head_ref }}
+      - name: Verify no changes left uncommitted
+        run: |
+          if ! git diff --quiet; then
+            echo "::error::update.sh produced changes. Please run ./update.sh locally and commit the results."
+            git diff --stat
+            exit 1
+          fi
